@@ -1,0 +1,64 @@
+body {
+  font: normal 16px Arial, sans-serif;
+}
+div {
+  margin: 0 0 0.75em 0;
+}
+h4{
+  margin-top: 50px;
+}
+
+/* ===== */
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"] + label {
+  color: #292b2a;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+input[type="radio"] + label span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle; 
+  border-radius: 50%;
+  background-color: #292b2a;
+}
+input[type="radio"]:checked + label span {
+  background-color: #10a274;
+}
+input[type="radio"] + label span, input[type="radio"]:checked + label span {
+  -webkit-transition: background-color 0.4s linear;
+  -o-transition: background-color 0.4s linear;
+  -moz-transition: background-color 0.4s linear;
+  transition: background-color 0.4s linear;
+}
+
+/* ===== */
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"] + label {
+  color: #292b2a;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+input[type="checkbox"] + label span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  background-color: #292b2a;
+}
+input[type="checkbox"]:checked + label span {
+  background-color: #E41937;
+}
+input[type="checkbox"] + label span, input[type="checkbox"]:checked + label span {
+  -webkit-transition: background-color 0.4s linear;
+  -o-transition: background-color 0.4s linear;
+  -moz-transition: background-color 0.4s linear;
+  transition: background-color 0.4s linear;
+}
